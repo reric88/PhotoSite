@@ -1,0 +1,44 @@
+/* Import our Font */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* CSS variables optional */
+
+body {
+    background-color: #eee;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 2vw;
+    text-align: center;
+    border-bottom: 5px solid #ccc;
+    padding-bottom: 15px;
+
+    /* Width of the paragraph element (bottom border) */
+    width: 48%;
+    /* Margin auto centers the paragraph element horizaontally inside the body element */
+    margin: auto;
+
+}
+
+img {
+    width: 22.5%;
+    box-sizing: border-box;
+    margin: 1.25%;
+
+    /* The float property places an element on the left or right side of its container/parent allowing text and inline elements to wrap around it. The element is removed from the normal document flow. Also removes the 'mystery space' between image elements */
+    /* The mystery space is the actual space between image elements in an html file. */
+    float: left;
+
+
+}
+
